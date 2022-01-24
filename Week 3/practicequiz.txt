@@ -1,0 +1,20 @@
+Question 1: What is a Databricks table? 
+Answer: A collection of structured data
+
+Question 2: You can show a sampling of a table by running a SELECT * FROM table_name query. What's one other way that you can preview the data in the table? Choose all that apply.
+Answer: Select it from the Data tab in your Databricks workspace
+        Run the command: SELECT * FROM table_name LIMIT 5
+
+Question 3: What of the following statements about a table's schema is true? 
+Answer: It describes the structure of your data
+
+Question 4: What is wrong with the following query? 
+SELECT birthYear,
+ ROUND(AVG(salary), 2) AS avgSalary
+FROM
+ peopleSavings
+Answer: It's missing a GROUP BY clause
+
+Question 5: Which of these accurately describes how a VIEW is different from a TABLE? Select all that apply: 
+Answer: Views will not appear for preview form the Data tab
+        Tables are accessible in your workspace until you decide to drop them. Views are automatically dropped. 
