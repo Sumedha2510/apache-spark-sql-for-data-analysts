@@ -1,0 +1,28 @@
+Question 1
+What is the first action Spark SQL's optimizer performs before processing your query? 
+Answer: It checks the query against the metadata catalog to verify that the table and columns you're referencing actually exist
+
+Question 2
+Spark SQL can auto-optimize your query by reordering the sequence of commands so that it can process the data in the most efficient way. What is that stage in the optimization process called? 
+Answer: Logical Optimization
+
+Question 3
+A cluster is a set of computational resources that power your query. Within a cluster, a driver breaks up and distributes work to the workers. What happens if one of the workers shuts down? 
+Answer: Nothing really; the work will just be redistributed among the workers that are continuing to run. 
+
+Question 4
+The Spark UI contains a lot of visualizations about how your data is being processed and exactly what's going on within your cluster. 
+In which area of the UI would you find a list of all the SQL queries that have been performed since your cluster started running? 
+Answer: The SQL tab
+
+Question 5
+If you see that a column in the table you're working with begins with "p_", what does it likely indicate about the table? 
+Answer: It is partitioned by that column
+
+Question 6
+What is Spark caching? 
+Answer: It stores data in temporary storage across machines in your cluster.
+
+Question 7
+What does it mean to partition a table? 
+Answer: It allows you to write subdirectories for the table in your file system
