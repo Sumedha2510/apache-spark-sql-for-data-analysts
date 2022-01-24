@@ -1,0 +1,11 @@
+Question 1: True or False: This course is part of a specialization designed to train data analysts to become data scientists.
+Answer: True
+
+Question 2: What certification will you receive by completing this course? 
+Answer: Associate SQL Analyst
+
+Question 3: True or False: Databricks Community Edition is available for free. 
+Answer: True
+
+Question 4: True or False: The founders of Databricks were the original creators of Apache Spark.
+Answer: True
