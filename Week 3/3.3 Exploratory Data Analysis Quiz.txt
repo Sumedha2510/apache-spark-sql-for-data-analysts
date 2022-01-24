@@ -1,0 +1,19 @@
+Question 1
+Exercise 2: How many items in the table have a negative number in the quantity column? 
+Answer: 1,192
+
+Question 2
+Exercise 4: What's the country with the greatest totalAmount of sales? 
+Answer: United Kingdom
+
+Question 3
+What countries are represented in this table? Select all that apply. 
+Answer: Iceland, Italy
+
+Question 4
+Exercise 6: Which country has the fourth highest totalQuantity in your salesQuants view? 
+Answer: France
+
+Question 5
+Exercise 8: Which column is not in your countryCodes table? 
+Answer: numberCode
