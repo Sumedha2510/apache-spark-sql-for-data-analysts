@@ -1,0 +1,22 @@
+Question 1: Imagine that you are given access to a data table that contains millions of records. Hundreds of thousands of records are added every hour. 
+Think about the characteristics of big data. Which characteristics does this scenario relate to? Choose two.
+Answer: Volume, Velocity
+
+Question 2: Which of the following are examples of unstructured data? Choose two. 
+Answer: Videos, Social Media posts
+
+Question 3: Which of the following include the three high-level big data needs that we identified for organizations? 
+Answer: Collecting data, storing data, and generating data insights
+
+Question 4: True or False: While spreadsheets  are useful in working with data in general, they are often not robust enough to work with big data. 
+Answer: True
+
+Question 5: Which of the following statements are true about Apache Spark? Choose two
+Answer: Apache Spark processes a single set of data to be processed on multiple machines.
+        Apache Spark can connect to many different data sources and work with a wide variety of file types.
+        
+Question 6: True or False: Spark SQL uses basic SQL syntax to access Spark's unified analytics engine. 
+Answer: True
+
+Question 7: What do we call the group of machines that Spark uses to power queries? 
+Answer: Cluster
