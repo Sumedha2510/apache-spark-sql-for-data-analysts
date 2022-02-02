@@ -19,8 +19,29 @@ Answer: WITH
 Question 5: How is data stored in a MAP type column
 Answer: key-value pairs
 
-Question 6: 
-Answer: 
+Question 6: Question 6
+Identify the error: 
+SELECT             
+  key,
+  dc_id,
+  date,
+  value.description,  
+  value.ip,
+  value.temps,
+  value.co2_level
+FROM               
+  ExplodeSource
+WITH ExplodeSource  
+AS                  
+(                   
+  SELECT            
+    dc_id,
+    to_date(date) AS date,
+    EXPLODE (source)
+  FROM
+    DCDataRaw
+); 
+Answer: The WITH clause must go at the start of a CTE
 
 Question 7: 
 Answer: 
