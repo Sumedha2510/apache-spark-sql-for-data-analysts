@@ -43,11 +43,11 @@ AS
 ); 
 Answer: The WITH clause must go at the start of a CTE
 
-Question 7: 
-Answer: 
+Question 7: If you want to create a new table based on an existing table, which design pattern could you use?
+Answer: CTAS
 
-Question 8: 
-Answer: 
+Question 8: Fill in the blank: When working with arrays, we can access each element by its position on the array. We call that position the element's ______________
+Answer: Index
 
 Question 9: 
 Answer: 
