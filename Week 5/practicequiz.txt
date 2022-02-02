@@ -1,0 +1,32 @@
+Question 1: What is a reason for including the DROP TABLE command before the table creation statement as shown below?
+DROP TABLE IF EXISTS DCDataRaw;
+CREATE TABLE DCDataRaw
+USING parquet 
+OPTIONS (
+ PATH "/mnt/training/iot-devices/data-centers/2019-q2-q3" 
+ )
+Answer: It ensures that we can run the notebook more than once without encountering an error due to a naming conflict
+
+Question 2: What additional information is provided when you use a DESCRIBE EXTENDED command? 
+Answer: Detailed table information, like which database holds the data and the table name 
+
+Question 3: What are three complex data types you can work with using Spark SQL?
+Answer: ARRAY, MAP, AND STRUCT
+
+Question 4: What keyword always starts a Common Table Expression (CTE) 
+Answer: WITH
+
+Question 5: How is data stored in a MAP type column
+Answer: key-value pairs
+
+Question 6: 
+Answer: 
+
+Question 7: 
+Answer: 
+
+Question 8: 
+Answer: 
+
+Question 9: 
+Answer: 
