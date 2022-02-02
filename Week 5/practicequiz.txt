@@ -49,5 +49,5 @@ Answer: CTAS
 Question 8: Fill in the blank: When working with arrays, we can access each element by its position on the array. We call that position the element's ______________
 Answer: Index
 
-Question 9: 
-Answer: 
+Question 9: Imagine that you used a CTE to access some nested data. Later on in your notebook, you want to reference that table or view that was created by the CTE, but you get an error message when you write the query. What is the most likely cause of the error?
+Answer: CTE's do not create tables or views. Queries must be performed directly after definition
