@@ -1,0 +1,8 @@
+Question 1: Which array matches the first row of your display in exercise 4? 
+Answer: [-4, -1, -1]
+
+Question 2: What's the least of the high CO2 levels in the table?  
+Answer: 1401
+
+Question 3: What is the column farthest to right in your results for exercise 6? 
+Answer: p_device_id
