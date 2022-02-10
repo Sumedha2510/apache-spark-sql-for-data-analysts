@@ -1,0 +1,31 @@
+Question 1: What statement best describes a higher-order function? 
+Answer: Higher-order functions allow you to define functions that manipulate arrays in SQL
+
+Question 2: Which statement best describes the purpose of the iterator in a higher-order function?
+Answer: The iterator is a place-holder variable that you use within the function definition. When you write the function, 
+        you should think of the iterator as a single element of the array that you're working with. 
+        
+Question 3: Which statement best describes a subquery?
+Answer: A subquery is a query within a query
+
+Question 4: Imagine you're applying the reduce function to an ARRAY type column and you're trying to find the mean of each array. 
+This is how you've written the REDUCE function: 
+REDUCE(demo_array, 0, ( element , acc ) -> element + acc, acc ->(acc div size(demo_array)))
+Which statement best describes the variable acc? 
+Answer: It is the accumulator variable; it holds a running total of the elements as they are summed in the first function of this command
+
+Question 5: What statement best describes the difference between Rollup and Cube operators
+Answer: Rollup generates subtotals and grand totals for a set of columns. Cube generates subtotals and grand totals for all possible combinations of the grouping columns specified
+
+Question 6: Identify the error in the query below: 
+SELECT 
+ device_type,
+ ROUND(AVG(avg_daily_temp_c),4) AS avgTemp,
+ ROUND(STD(avg_daily_temp_c), 2) AS stdTemp
+FROM AvgTemps
+WHERE device_type = getArgument()
+GROUP BY device_type
+Answer: The get_argument function needs to include the name of your widget as a parameter
+
+Question 7: What defines the "window" in a window function? 
+Answer: The OVER clause
