@@ -1,0 +1,17 @@
+Question 1: How many records are in your table. Use the results from exercise 3. 
+Answer: 18168
+
+Question 2: Which device_id seems like it might be missing records? (Exercise 6)
+Answer: 4
+
+Question 3: For which approximate date does it seems like the device is missing records? (Exercise 7)
+Answer: 2020-02-27
+
+Question 4: How many records were modified in exercise 9? 
+Answer: 182
+
+Question 5: How many records arrived late, according to exercise 10? 
+Answer: 72
+
+Question 6: How many records are in upcerts, according to exercise 12?
+Answer: 254
