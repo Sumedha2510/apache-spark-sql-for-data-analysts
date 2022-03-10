@@ -1,1 +1,1 @@
-Afew questions may differ, try them using the same concept as in the attached pdf. If the answers of those questions aren't correct then retry the quiz and then probably the other set of questions will appear.
+A few questions may differ from the ones that I had attempted, try them using the same concept as in the attached pdf. If the answers of those questions aren't correct then retry the quiz and probably the other set of questions will appear.
